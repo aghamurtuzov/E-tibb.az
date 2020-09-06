@@ -1,0 +1,18 @@
+stages:
+  - deploy
+
+deploy_staging:
+  stage: deploy
+  only:
+    - develop    
+  script:
+    if [ "$CI_COMMIT_REF_NAME" == "develop" ]; then rsync -avu --delete /home/gitlab-runner/builds/2z5shkKp/0/apa.it.team/e-tibb.az/ /var/www/server.e-tibb.az/public_html/ && chown -R gitlab-runner:apache /var/www/server.e-tibb.az/public_html/;
+    fi    
+    
+deploy_prod:
+  stage: deploy
+  only:
+    - master    
+  script:
+    if [ "$CI_COMMIT_REF_NAME" == "master" ]; then rsync -avu --delete /home/gitlab-runner/builds/2z5shkKp/0/apa.it.team/e-tibb.az/ /var/www/server.e-tibb.az/master/ && chown -R gitlab-runner:apache /var/www/server.e-tibb.az/master/;
+    fi

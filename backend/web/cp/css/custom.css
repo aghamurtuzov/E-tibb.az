@@ -1,0 +1,906 @@
+/*Created By: Ilahas*/
+/*Created Date: 06.05.2020 */
+
+/*custom css*/
+.pl-0 {
+    padding-left: 0;
+}
+
+.pl-15 {
+    padding-left: 15px;
+}
+
+.pr-0 {
+    padding-right: 0;
+}
+
+.pt-0 {
+    padding-top: 0px !important;
+}
+
+.pb-0 {
+    padding-bottom: 0 !important;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mt-0 {
+    margin-top: 0px !important;
+}
+
+.mt-20 {
+    margin-top: 20px !important;
+}
+
+.blog {
+    padding: 0;
+}
+
+.line_40 {
+    line-height: 40px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.float-right {
+    float: right;
+}
+
+.no_data {
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+header .navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.table>thead>tr>th {
+    text-align: initial !important;
+}
+
+.information-blog .block {
+    overflow-x: hidden;
+}
+
+.table__Container {
+    overflow-x: auto;
+}
+
+.notification-bar {
+    display: none;
+    background: #009bda;
+    width: 100%;
+    color: #fff !important;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+
+/*header nav*/
+.user_Rp {
+    display: none;
+    float: right;
+    padding: 0px 15px;
+    outline: none;
+}
+
+.menu-block {
+    padding-top: 40px;
+    position: fixed !important;
+    height: 100% !important;
+}
+
+.main__Content {
+    padding-top: 60px;
+}
+
+.main__Content>.col-lg-12 {
+    padding-bottom: 20px;
+}
+
+.blog .edit-post .block,
+.blog .upload-file-content .block,
+.blog .edit-post .block {
+    padding: 20px;
+}
+
+.blog-file-upload {
+    padding-bottom: 10px;
+}
+
+.table>thead>tr>th {
+    padding: 5px 20px 5px 15px;
+}
+
+/*sidebar menu*/
+.menu-block {
+    display: inline-block;
+    position: absolute;
+    z-index: 9;
+    width: 200px;
+}
+
+.menu-block.toggle {
+    width: 90px;
+}
+
+.main__Content {
+    margin-left: 200px;
+}
+
+.main__Content.changeWidth {
+    margin-left: 90px;
+}
+
+.menu .left-sidebar .router-link-exact-active,
+.toggle .menu .left-sidebar .router-link-exact-active,
+.menu .left-sidebar li:hover {
+    background-color: #14bbb0;
+    color: #fff;
+}
+
+.menu .left-sidebar li:hover {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.menu .left-sidebar .router-link-exact-active > a,
+.menu .left-sidebar .router-link-exact-active > a:before,
+.toggle .menu .left-sidebar .router-link-exact-active > a span,
+.toggle .menu .left-sidebar li:hover > a span,
+.menu .left-sidebar li:hover a,
+.menu .left-sidebar li:hover a:before {
+    color: #fff;
+}
+
+/*reservations*/
+.appoint-content .block {
+    min-height: unset;
+}
+
+/*questions*/
+.text-content {
+    overflow-y: auto;
+}
+
+.article-form .form-list {
+    bottom: 15px;
+}
+
+/*doctor settings*/
+.addition-workplace .btn {
+    float: right;
+    position: absolute;
+    right: 0;
+}
+
+.edit-social.social-block li {
+    width: 48%;
+}
+
+.edit-social.social-block li:nth-child(2n+1) {
+    margin-right: 2%;
+}
+
+.edit-social.social-block li:nth-child(2n) {
+    margin-left: 2%;
+}
+
+.edit-social.social-block li:last-child {
+    margin-left: 1%;
+    float: right;
+}
+
+/*stocks page*/
+.menu .left-sidebar li > a  {
+    font-size: 15px;
+}
+
+.menu .left-sidebar li > a span {
+    padding-left: 33px;
+}
+
+.clinic-inner .clinic-tariffs-edit .block,
+.stocks .clinic-tariffs-edit .block,
+.pharmacy.blog .clinic-tariffs-edit .block,
+.modal-block .modal-body,
+.modal-block .modal-header {
+    padding: 20px;
+}
+
+.blog .edit-post {
+    margin-top: 10px;
+}
+
+.information-blog .block {
+    overflow-x: auto;
+}
+
+.search :not(.input-group)>.bootstrap-select.form-control:not([class*=col-]) {
+    width: 100% !important;
+}
+
+.double-th {
+    display: table-cell;
+}
+
+.table>thead>tr>th {
+    text-align: center;
+}
+
+/*search selectpicker*/
+.search .multiselect__placeholder {
+    color: #02334c !important;
+    margin-bottom: unset !important;
+    padding-top: unset !important;
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+}
+
+.search .multiselect__tags {
+    background-color: #eaedf2 !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    padding: 0px 20px !important;
+    border: none !important;
+    border-radius: 20px !important;
+}
+
+.search .multiselect__select:before {
+    color: #02334c!important;
+    border-color: #02334c transparent transparent!important;
+}
+
+.search .multiselect__content-wrapper {
+    padding: 0 !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.15) !important;
+    border: none !important;
+}
+
+.search .multiselect__option {
+    font-size: 14px !important;
+    min-height: unset !important;
+    padding: 10px 20px !important;
+}
+
+.search .multiselect__option:hover,
+.search .multiselect__option--highlight {
+    color: #657a84 !important;
+    background-color: #e7f7f6 !important;
+    background-image: none !important;
+    outline: none !important;
+}
+
+.search .multiselect--active .multiselect__input,
+.search .multiselect__input, .multiselect__single {
+    background: transparent !important;
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    font-size: 14px !important;
+}
+
+.search .multiselect--active .multiselect__input,
+.search .multiselect--active .multiselect__single {
+    padding: 0px !important;
+}
+
+/*scrollbar*/
+.menu-block::-webkit-scrollbar-track,
+.menu-block .menu::-webkit-scrollbar-track,
+.modal-body::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.menu-block::-webkit-scrollbar,
+.menu-block .menu::-webkit-scrollbar,
+.modal-body::-webkit-scrollbar
+{
+    width: 5px;
+}
+
+.menu-block .menu,
+.menu-block,
+.modal-body {
+    scrollbar-width: thin
+}
+
+.menu-block::-webkit-scrollbar-thumb,
+.menu-block .menu::-webkit-scrollbar-thumb,
+.modal-body::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.1);
+    box-shadow: inset 0 0 6px rgba(0,0,0,.1);
+    background-color: #c1c1c1;
+}
+
+/*enterprise*/
+.new-addition .addition-info .block,
+.new-addition .bio-diplom .block,
+.setting-doctor.new-addition .bio-diplom .block,
+.setting-clinic.new-addition .bio-diplom .block,
+.addition-alternatives .block {
+    padding: 20px;
+}
+
+.addition-workplace .block,
+.new-addition .social-block .block,
+.setting-doctor.new-addition .social-block .block,
+.setting-clinic.new-addition .addition-workhours .block,
+.new-addition .addition-contact .block,
+.setting-clinic.new-addition .addition-address .block,
+.new-addition .addition-user .block,
+.setting-clinic.new-addition .social-block .block,
+.new-addition .addition-address .block,
+.clinic-new.new-addition .social-block .block {
+    padding: 20px 20px 40px !important;
+    margin-top: 20px;
+}
+
+/*enterprise doctor page*/
+.clinic-inner .clinic-position .clinic-information .block,
+.clinic-inner .clinic-position .balance .block,
+.clinic-inner .clinic-position .clinic-notify .block {
+    min-height: 425px;
+}
+
+/*.clinic-inner .clinic-position .clinic-notify .block {*/
+/*    min-height: 610px;*/
+/*}*/
+
+.Whatsapp {
+    top: 5px !important;
+    transform: translateY(-100%) !important;
+}
+
+/*image preview*/
+.stocks-inner.new-addition .addition-info .add-img-info,
+.new-addition .addition-info .add-img-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stocks-inner #preview img,
+#preview img {
+    height: auto;
+    width: auto;
+}
+
+/*tinymce editor*/
+.tox .tox-notification--warn,
+.tox .tox-notification--warning {
+    display: none !important;
+}
+
+/*general admin - clinics add*/
+.search_enterprise {
+    margin-bottom: 30px;
+}
+
+.search_enterprise .block {
+    padding: 15px 20px;
+    display: flex;
+}
+
+/*general admin - enterprise add*/
+.addition-enterprise-contact .row .col-md-6 .input-group {
+    width: 93%;
+}
+
+.clinic-inner .tariffs-stocks .clinic-tariffs .block {
+    margin-top: 20px;
+}
+
+/*general admin-feedback page*/
+.information-feedback li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.modal-feedback-block .modal-body {
+    display: block !important;
+}
+
+/*curtain*/
+.curtain_bg {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+
+.menu-block.toggle {
+    z-index: 99;
+}
+
+thead:after {
+    position: unset;
+}
+
+.deactive__Notification {
+    display: block !important;
+}
+
+/*enterprise admin - setting page*/
+.addListContainer {
+    display: block;
+}
+
+.addListContainer .input-group {
+    width: calc(100% - 40px) !important;
+    display: inline-block;
+}
+
+.addListContainer .btn {
+    width: 30px;
+    display: inline-block;
+    margin-left: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/*doctor admin - question page*/
+.uploadContainer {
+    display: block;
+}
+
+.uploadContainer .input-group {
+    width: calc(100% - 155px) !important;
+    display: inline-block;
+}
+
+.uploadContainer .btn-effect {
+    width: 145px;
+    display: inline-block;
+    margin-left: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.pharmacy-edit-block {
+    min-height: 452px !important;
+}
+
+/*add image icon*/
+.add-img-info .file-upload-wrapper {
+    width:100%;
+    height: 100%;
+}
+
+.add-img-info .custom-file-upload {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.add-img-info input[type=file] {
+    width: 100% !important;
+}
+
+@media only screen and (max-width: 1201px) {
+    .pts-20 {
+        padding-top: 20px ;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .ptx-20 {
+        padding-top: 20px !important;
+    }
+
+    .ptx-30 {
+        padding-top: 30px !important;
+    }
+
+    .menu-block .menu .left-sidebar .router-link-exact-active {
+        background-color: #14bbb0 !important;
+    }
+
+    .menu-block {
+        position: absolute;
+        z-index: 1;
+        width: 90px;
+        margin-left: -90px;
+        transition-duration: .4s;
+    }
+
+    .menu-block.toggle {
+        margin-left: 0;
+        transition-duration: .4s;
+    }
+
+    .changeWidth {
+        margin-left: 90px;
+    }
+
+    .main__Content {
+        margin-left: 0;
+    }
+
+    .menu-block .menu .left-sidebar li {
+        padding-left: 0;
+    }
+
+    .menu-block .menu .left-sidebar li > a {
+        text-align: center;
+        padding-bottom: 8px;
+    }
+
+    .menu-block .menu .left-sidebar .router-link-exact-active {
+        background-color: #edf1f2;
+        border-top-right-radius: 28px;
+        border-bottom-right-radius: 28px;
+    }
+
+    .menu-block .menu .left-sidebar li > a:before {
+        font-size: 19px;
+        top: 1px;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+
+    .menu-block .menu .left-sidebar li > a span {
+        font-size: 10px;
+        padding-top: 18px;
+        padding-left: 0;
+        display: block;
+        color: #a3adb4;
+    }
+
+    .menu-block .menu .left-sidebar {
+        padding: 40px 10px 0 0;
+    }
+
+    .main__Content.changeWidth {
+        margin-left: 0;
+    }
+
+    /*questions*/
+    .letters .question-position .information-blog .block {
+        min-height: unset;
+        margin-bottom: 20px;
+    }
+
+    /*enterprise setting*/
+    .setting-clinic .tariffs-sum {
+        display: block;
+    }
+
+    .setting-clinic.clinic-new .addition-alternatives .check-button:not(:last-child) {
+        margin-right: 50px;
+        line-height: 2;
+    }
+
+    /*curtain bg*/
+    .curtain_bg.active {
+        display: block;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    /*enterprise doctor page*/
+    .reservation-position .col-md-5,
+    .question-position .col-md-5,
+    .clinic-position .row.relative .col-lg-6:last-child {
+        position: relative;
+        right: unset;
+        top: unset;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .mbx-10 {
+        margin-bottom: 10px !important;
+    }
+
+    .mtx-20 {
+        margin-top: 20px !important;
+    }
+
+    .mtx-0 {
+        margin-top: 0px !important;
+    }
+
+    .mbx-0 {
+        margin-bottom: 0px !important;
+    }
+
+    .user_Rp {
+        display: inline-block;
+    }
+
+    .navbar-brand {
+        padding: 15px 15px;
+    }
+
+    header .user_Rp a.dropdown-toggle img {
+        margin-right: 0;
+    }
+
+    /*pagination*/
+    .pagination_Rp {
+        text-align: center !important;
+    }
+
+    /*reservations*/
+    .search .search-blog {
+        display: block !important;
+    }
+
+    .statics .static-blocks {
+        display: block;
+    }
+
+    .appointment.statics .static-blocks .block:not(:last-child) {
+        margin-right: unset;
+    }
+
+    .appointment.statics .static-blocks .block {
+        display: inline-flex !important;
+        width: 48%;
+        margin-bottom: 10px;
+    }
+
+    .appointment.statics .static-blocks .block:nth-child(odd) {
+        margin-right: 2% !important;
+    }
+
+
+    .appointment.statics .static-blocks .block:nth-child(even) {
+        margin-left: 2%;
+    }
+
+    .appointment.statics .static-blocks .block:last-child {
+        margin-right: unset;
+        width: 100%;
+    }
+
+    /*reservations*/
+    .search .search-blog.promo .btn-effect,
+    .search .search-blog .btn-effect {
+        float: right;
+    }
+
+    .edit-social.social-block li {
+        width: 100%;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .edit-social.social-block li:last-child {
+        float: none;
+    }
+
+    /*doctor settings*/
+    .addition-alternatives .block {
+        display: block;
+        overflow: auto;
+        margin-bottom: 20px;
+    }
+
+    .addition-alternatives .btn {
+        float: right;
+        margin-top: 20px;
+    }
+
+    /*general panel - doctor page*/
+    .appointment.statics .static-blocks.doctor-static .block {
+        display: inline-flex !important;
+        width: 47%;
+        margin-bottom: 10px;
+    }
+
+    .appointment.statics .static-blocks.doctor-static .block:nth-child(even) {
+        float: right;
+    }
+
+    .appointment.statics .static-blocks.doctor-static .block:last-child {
+        width: 100%;
+    }
+
+    /*general admin - account*/
+    .account .account-lists li {
+        padding: 20px 15px;
+        margin-right: 0;
+    }
+
+    .account .account-lists .block {
+        padding: 0px;
+    }
+
+    .notification-bar {
+        font: 15px/22px Arial;
+        display: inline-block;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .clinic-inner .clinic-information address li {
+        width: 100%;
+    }
+
+    .clinic-inner address {
+        margin-bottom: 0;
+    }
+
+    .clinic-inner .clinic-edit {
+        display: block;
+    }
+
+    .clinic-edit .btn {
+        margin-bottom: 10px !important;
+    }
+
+    .clinic-inner .clinic-edit {
+        position: relative;
+        max-width: 100%;
+        left: unset;
+        right: unset;
+        bottom: unset;
+    }
+
+    .clinic-inner .logo-login {
+        display: block;
+    }
+
+    .doctor-inner .clinic-information p {
+        margin-top: 10px;
+    }
+
+    /*doctor admin - question page*/
+    .uploadContainer .input-group {
+        width: calc(100% - 95px) !important;
+    }
+
+    .uploadContainer .btn-effect {
+        width: 85px !important;
+        height: 35px !important;
+        margin-left: 0 !important;
+        font-size: 13px !important;
+    }
+
+    .give-answer {
+        padding: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .user_Rp {
+        display: inline-block;
+        padding: 2px 15px;
+    }
+
+    .navbar-brand {
+        padding: 15px 15px;
+    }
+
+    .navbar-brand>img {
+        width: 90%;
+    }
+
+    header .user_Rp a.dropdown-toggle img {
+        margin-right: 0;
+        height: 35px;
+        width: 35px;
+    }
+
+    /*breadcrumb*/
+    .head-line {
+        display: none;
+    }
+
+    .main__Content {
+        padding-top: 80px;
+    }
+
+    .admin-block {
+        padding-top: 10px;
+    }
+
+    /*reservations*/
+    .appoint-content .block {
+        padding: 0px 30px 40px;
+    }
+
+    .new-addition .addition-info .block,
+    .addition-workplace .block,
+    .setting-doctor.new-addition .bio-diplom .block,
+    .setting-doctor.new-addition .social-block .block,
+    .addition-alternatives .block,
+    .account .modal-block .modal-header,
+    .account .modal-block .modal-body,
+    .modal-content .modal-footer {
+        padding: 20px !important;
+    }
+
+    .addition-alternatives .check-button {
+        margin-right: 20px !important;
+        line-height: 1.7;
+    }
+
+    /*enterprise doctor page*/
+    .clinic-inner .clinic-tariffs ul.nav-tabs,
+    .clinic-inner .clinic-notify .btn-textemail
+    {
+        display: block;
+    }
+
+    .clinic-inner .clinic-tariffs ul.nav-tabs li {
+        width: 48%;
+    }
+
+    .clinic-inner .tariffs-stocks .clinic-tariffs ul.nav-tabs li:not(:last-child) {
+        margin-right: 2%;
+    }
+
+    .clinic-inner .tariffs-stocks .clinic-tariffs ul.nav-tabs li:last-child {
+        margin-left: 2%;
+    }
+
+    .clinic-inner .clinic-notify .btn {
+        margin-bottom: 10px;
+    }
+
+    /*general admin-news add*/
+    .blog .editor-buttons button {
+        width: 115px;
+    }
+
+    /*general admin - account*/
+    .account .modal-block .modal-header,
+    .account .modal-block .modal-body,
+    .account #myModal .modal-content .modal-footer,
+    .slider-block .modal-block .modal-header,
+    .slider-block .modal-block .modal-body,
+    #myModal .modal-content .modal-footer,
+    .slider-block .modal-block .modal-content .modal-footer {
+        padding: 20px;
+    }
+
+    .modal-block .modal-body {
+        max-height: 70vh;
+    }
+
+    .deactive__Notification {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+}
+
+

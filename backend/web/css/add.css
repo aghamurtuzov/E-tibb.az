@@ -1,0 +1,243 @@
+.table > thead > tr > td.danger, .table > tbody > tr > td.danger, .table > tfoot > tr > td.danger, .table > thead > tr > th.danger, .table > tbody > tr > th.danger, .table > tfoot > tr > th.danger, .table > thead > tr.danger > td, .table > tbody > tr.danger > td, .table > tfoot > tr.danger > td, .table > thead > tr.danger > th, .table > tbody > tr.danger > th, .table > tfoot > tr.danger > th {
+    background-color: #ffebeb;
+}
+
+.dropdown-usermenu li form button {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0;
+    color: #5A738E;
+    background: none;
+    border: none;
+    text-align: left;
+}
+
+.dropdown-usermenu li form button:hover {
+    background-color: #f5f5f5;
+}
+
+
+.right_col {
+    overflow: hidden;
+}
+
+.nav_menu {
+    margin-bottom: 0px !important;
+}
+
+.table {
+    background: #fff;
+}
+
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
+    border-bottom-width: 0;
+}
+
+.galleryBox .item img.addborder{
+    border: 3px solid rgb(51, 122, 183);
+}
+
+.w60 {
+    width: 60px;
+}
+
+.w80 {
+    width: 80px;
+}
+
+.w90 {
+    width: 90px;
+}
+
+.w110 {
+    width: 110px;
+}
+
+.w200 {
+    width: 200px;
+}
+
+.w250 {
+    width: 250px;
+}
+
+.tooltip-inner {
+    background-color: #2a3f54;
+}
+
+.table-responsive {
+    border: 0px solid #ddd;
+}
+
+.moduleList .ActionControl {
+    width: 145px;
+    padding: 2px 8px !important;
+}
+
+.moduleList .alert {
+    color: #fff;
+}
+
+.moduleList .alert .close {
+    filter: alpha(opacity=50);
+    opacity: .5;
+    color: inherit;
+}
+
+.moduleList .switchery {
+    float: right;
+    width: 50px;
+}
+
+.moduleList .table tr th a {
+    text-decoration: underline;
+}
+
+.moduleList .table tbody tr:hover {
+    background: #f3f3f3;
+}
+
+.moduleList .titleLink {
+    text-decoration: underline;
+}
+
+.moduleList .button-update,
+.moduleList .button-delete {
+    margin: 0 !important;
+    background: transparent;
+    border: none;
+}
+
+.moduleList .button-update:hover,
+.moduleList .button-delete:hover {
+    background: #f1f1f1;
+}
+
+.moduleList .button-update {
+    color: #337ab7;
+}
+
+.moduleList .button-delete {
+    color: #d9534f;
+}
+
+.moduleList .button-delete-all {
+    width: 128px;
+    margin: 0 !important;
+}
+
+.moduleList .del_check {
+    float: right;
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #26b99a;
+    border-color: #26b99a;
+}
+
+.right_col .title_left {
+    width: 100%;
+}
+
+.font-25 {
+    font-size: 28px;
+}
+
+.p-0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.bgWhite {
+    float: left;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #E6E9ED;
+}
+
+.x_panel {
+    border: none !important;
+}
+
+.galleryBox {
+    padding-bottom: 20px;
+}
+
+.galleryBox .item {
+    height: 137px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.galleryBox .item img {
+    float: left;
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.galleryBox .item.main img {
+    border: solid 3px #337ab7;
+}
+
+.galleryBox .item .btn {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.img-circle.profile_img {
+    padding: 3px;
+}
+
+.tableBtn {
+    margin: 0;
+}
+
+.checkboxList label {
+    margin-right: 10px;
+}
+
+.hint-block {
+    color: #73879c;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.inputPlus {
+    width: 10px;
+    height: 30px;
+    background: #000;
+    color: #fff;
+}
+
+.input-group-btn .btn-none {
+    background: #fff;
+    color: #fff;
+    border-left: solid 1px #ccc;
+    cursor: context-menu;
+}
+
+.miniSelectBox {
+    padding: 2px;
+    border: solid 1px #ccc;
+    border-bottom: none;
+}
+
+.multiple_selectBox {
+    height: 180px !important;
+}
+
+.input-group-btn button {
+    margin-right: 0px;
+}
+
+.tooltip_image {
+    object-fit: cover;
+}
+

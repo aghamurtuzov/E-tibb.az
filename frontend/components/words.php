@@ -1,0 +1,4 @@
+<?php
+return [
+    "göt","got","sik","cındır","cindir","petux","petuğ","şərəfsiz","şerefsiz","alçaq","alcaq","alçax","alcax","varyox","var-yox","nesil","nəsil","sikim","daşşaq","daşşax","amcıq","amcıx","emcek","əmcək","qaniçən","cəllad","quldur","rejim","quldurxana","cellad","gorbagor","götveren","götvərən","gotveren","gotvərən","pox","püsür","peyser","peysər","gijdillaq","gicdillaq","gicdıllaq","gijdıllaq","dalbaeb","dalboeb","dalbayob","suka","sikdir","soxum","gotes","götəş","gotəş","pedaraz","pedik","petka","osdur","osduraq","osdurax","osduraxcı","osduraqçı","osduraxçı","oğraş","ogras","ograş","nakisi","exlaqsiz","exlaqsız","bişeref","bişərəf","debil","biqeyrət","biqeyret","binamus","namussuz","qeyrətsiz","nakişi","amcıq","amcıx","dındıq","dındıx","amk"
+];
